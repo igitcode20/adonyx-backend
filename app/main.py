@@ -22,8 +22,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://localhost:3000",
-        "https://adonyx.vercel.app",
+        "https://adonyx-frontend.vercel.app",
+        "https://adonyx-frontend-git-master-ismael-s-projects19.vercel.app/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
